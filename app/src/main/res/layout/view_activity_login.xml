@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/dimen_10dp">
+
+        <Button
+            style="@style/AppTheme.FacebookButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/loging_to_facebook"
+            android:id="@+id/btnFacebook"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dimen_10dp"/>
+
+        <Button
+            style="@style/AppTheme.GooglePlusButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="@string/login_to_google_plus"
+            android:id="@+id/btnGooglePlus"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dimen_10dp" />
+    </LinearLayout>
+</ScrollView>

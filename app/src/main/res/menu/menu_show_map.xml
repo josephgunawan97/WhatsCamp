@@ -1,0 +1,7 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+    <item
+        android:title="@string/show_map"
+        android:id="@+id/menuShowMap"
+        app:showAsAction="always"/>
+</menu>

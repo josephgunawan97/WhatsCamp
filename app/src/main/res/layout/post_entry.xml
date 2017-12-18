@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+	android:orientation="vertical">
+
+	<LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/dimen_5dp"
+            android:layout_marginBottom="@dimen/dimen_5dp"
+            android:id="@+id/linearPost"
+            android:layout_marginLeft="@dimen/dimen_5dp"
+            android:layout_marginRight="@dimen/dimen_5dp">
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:id="@+id/imgViewThumb"
+                android:src="@mipmap/bg_image_thumb_placeholder"
+                android:scaleType="centerCrop"
+                android:layout_marginRight="@dimen/dimen_5dp" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:layout_marginTop="@dimen/dimen_5dp">
+
+                <LinearLayout
+android:orientation="horizontal"
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+
+<TextView
+android:layout_width="0dp"
+android:layout_height="wrap_content"
+android:textAppearance="?android:attr/textAppearanceSmall"
+android:text="Jonathan Moore"
+android:textSize="@dimen/text_size_13sp"
+android:layout_marginRight="@dimen/dimen_5dp"
+android:layout_weight="1"
+android:textStyle="bold"
+                        android:id="@+id/tvTitle" />
+
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:textAppearance="?android:attr/textAppearanceSmall"
+android:text="19 Thu 04:13 PM"
+android:layout_gravity="center|left"
+android:textSize="@dimen/text_size_12sp"
+    android:id="@+id/tvDate"
+android:gravity="right" />
+</LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Definitely going this event."
+                    android:layout_gravity="center|left"
+                    android:textSize="@dimen/text_size_12sp"
+                    android:layout_marginRight="@dimen/dimen_5dp"
+                    android:id="@+id/tvSubtitle"
+                    android:gravity="right" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/colorWhite"
+            android:layout_marginLeft="@dimen/dimen_5dp"
+            android:layout_marginRight="@dimen/dimen_5dp"
+            android:id="@+id/frameLoadMore">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/load_more"
+                android:textSize="@dimen/text_size_13sp"
+                android:layout_marginRight="@dimen/dimen_5dp"
+                android:layout_weight="1"
+                android:id="@+id/textView6"
+                android:layout_gravity="center" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+	<View android:background="@drawable/line_gray" android:layout_width="match_parent" android:layout_height="1dp"
+		android:layout_marginLeft="@dimen/dimen_5dp" />
+
+
+</LinearLayout>

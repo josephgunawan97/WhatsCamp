@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7eb143</color>
+    <color name="colorPrimaryDark">#719e3c</color>
+    <color name="colorAccent">#8bc34a</color>
+
+    <color name="theme_ads_bg_color">#303030</color>
+    <color name="theme_main_color_alpha_66">#D68bc34a</color>
+    <color name="text_white_color">#ffffffff</color>
+    <color name="no_result_text_color">#ffffffff</color>
+    <color name="colorTitleText">#ffffffff</color>
+    <color name="edittext_border_color">#e5e5e5</color>
+
+    <color name="colorFacebook">#3549af</color>
+    <color name="colorFacebookDark">#293a8c</color>
+
+    <color name="colorTwitter">#44bcd8</color>
+    <color name="colorTwitterDark">#3597ae</color>
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="black_color_opacity_66">#aa000000</color>
+    <color name="bg_gray_color">#f7f7f7</color>
+    <color name="line_color">#b4b4b4</color>
+
+    <color name="colorGooglePlus">#dd4b39</color>
+    <color name="colorGooglePlusDark">#c94332</color>
+
+    <color name="colorTextGray">#555555</color>
+
+    <color name="gray_color">#a3a3a3</color>
+    <color name="colorHyperLink">#0000ff</color>
+    <color name="colorRipple">#66FFFFFF</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>

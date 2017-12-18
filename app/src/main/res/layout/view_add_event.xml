@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+	android:fillViewport="true" >
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical" >
+
+		<FrameLayout
+			android:layout_width="match_parent"
+			android:layout_height="200dp">
+
+			<ImageView
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:id="@+id/imgViewThumb"
+				android:src="@mipmap/bg_image_placeholder"
+				android:scaleType="centerCrop"
+				android:layout_gravity="top" />
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="right|bottom"
+				android:layout_marginRight="@dimen/dimen_10dp"
+				android:layout_marginBottom="@dimen/dimen_10dp">
+
+				<ImageView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:id="@+id/imgViewCamera"
+					android:background="@mipmap/ic_camera"
+					android:layout_marginRight="@dimen/dimen_5dp" />
+
+				<ImageView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:id="@+id/imgViewGallery"
+					android:background="@mipmap/ic_photo" />
+			</LinearLayout>
+		</FrameLayout>
+
+		<View android:background="@drawable/line_accent" android:layout_width="match_parent" android:layout_height="3dp"/>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_margin="@dimen/dimen_5dp"
+			android:orientation="vertical" >
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="@dimen/dimen_10dp"
+				android:orientation="vertical" >
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/upper_event_name"
+					android:textAppearance="?android:attr/textAppearanceMedium" />
+
+				<EditText
+					android:id="@+id/txtEventName"
+					android:layout_width="match_parent"
+					android:layout_height="45dp"
+					android:layout_marginTop="@dimen/dimen_5dp"
+					android:ems="10"
+					android:background="@drawable/edittext_round_theme"
+					android:hint="@string/event_name"
+					android:paddingLeft="@dimen/dimen_5dp"
+					android:paddingRight="@dimen/dimen_5dp" />
+			</LinearLayout>
+
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="@dimen/dimen_10dp"
+				android:orientation="vertical" >
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/upper_event_datetime"
+					android:textAppearance="?android:attr/textAppearanceMedium" />
+
+				<TextView
+					android:id="@+id/tvEventDateTime"
+					android:layout_width="match_parent"
+					android:layout_height="45dp"
+					android:layout_marginTop="@dimen/dimen_5dp"
+					android:ems="10"
+					android:background="@drawable/edittext_round_theme"
+					android:text="@string/event_datetime"
+					android:paddingLeft="@dimen/dimen_5dp"
+					android:paddingRight="@dimen/dimen_5dp"
+					android:textSize="@dimen/text_size_17sp"
+					android:gravity="center|left" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="@dimen/dimen_10dp"
+				android:orientation="vertical" >
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/upper_event_address"
+					android:textAppearance="?android:attr/textAppearanceMedium" />
+
+				<EditText
+					android:id="@+id/txtEventAddress"
+					android:layout_width="match_parent"
+					android:layout_height="45dp"
+					android:layout_marginTop="@dimen/dimen_5dp"
+					android:ems="10"
+					android:background="@drawable/edittext_round_theme"
+					android:hint="@string/event_address"
+					android:paddingLeft="@dimen/dimen_5dp"
+					android:paddingRight="@dimen/dimen_5dp" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="@dimen/dimen_10dp"
+				android:orientation="vertical" >
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/upper_event_email_address"
+					android:textAppearance="?android:attr/textAppearanceMedium" />
+
+				<EditText
+					android:id="@+id/txtEventEmailAddress"
+					android:layout_width="match_parent"
+					android:layout_height="45dp"
+					android:layout_marginTop="@dimen/dimen_5dp"
+					android:ems="10"
+					android:background="@drawable/edittext_round_theme"
+					android:hint="@string/event_email_address"
+					android:paddingLeft="@dimen/dimen_5dp"
+					android:paddingRight="@dimen/dimen_5dp"
+					android:inputType="textEmailAddress" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="@dimen/dimen_10dp"
+				android:orientation="vertical" >
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/upper_event_contact_no"
+					android:textAppearance="?android:attr/textAppearanceMedium" />
+
+				<EditText
+					android:id="@+id/txtEventContactNo"
+					android:layout_width="match_parent"
+					android:layout_height="45dp"
+					android:layout_marginTop="@dimen/dimen_5dp"
+					android:ems="10"
+					android:background="@drawable/edittext_round_theme"
+					android:hint="@string/event_contact_no"
+					android:paddingLeft="@dimen/dimen_5dp"
+					android:paddingRight="@dimen/dimen_5dp"
+					android:inputType="phone" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="@dimen/dimen_10dp"
+				android:orientation="vertical" >
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/upper_event_ticket_url"
+					android:textAppearance="?android:attr/textAppearanceMedium" />
+
+				<EditText
+					android:id="@+id/txtEventTicketURL"
+					android:layout_width="match_parent"
+					android:layout_height="45dp"
+					android:layout_marginTop="@dimen/dimen_5dp"
+					android:ems="10"
+					android:background="@drawable/edittext_round_theme"
+					android:hint="@string/event_ticket_url"
+					android:paddingLeft="@dimen/dimen_5dp"
+					android:paddingRight="@dimen/dimen_5dp"
+					android:inputType="textUri" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="@dimen/dimen_10dp"
+				android:orientation="vertical" >
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content">
+
+					<TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/upper_event_desc"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+						android:layout_weight="1" />
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="2500"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:id="@+id/tvMaxCharCount"
+						android:gravity="right" />
+				</LinearLayout>
+
+				<EditText
+					android:id="@+id/txtEventDesc"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_marginTop="@dimen/dimen_5dp"
+					android:gravity="top|left"
+					android:ems="10"
+					android:maxLines="@integer/num_new_lines_7"
+					android:background="@drawable/edittext_round_theme"
+					android:hint="@string/event_desc"
+					android:padding="@dimen/dimen_5dp"
+					android:lines="@integer/num_new_lines_7" />
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_margin="@dimen/dimen_10dp"
+				android:orientation="vertical" >
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="@string/upper_event_category"
+					android:textAppearance="?android:attr/textAppearanceMedium" />
+
+				<FrameLayout
+					android:layout_width="match_parent"
+					android:layout_height="50dp"
+					android:orientation="horizontal" >
+
+					<TextView
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:text="@string/event_category"
+						android:textAppearance="?android:attr/textAppearanceMedium"
+						android:id="@+id/tvCategory"
+						android:layout_weight="1"
+						android:gravity="center|left"
+						android:layout_marginLeft="@dimen/dimen_5dp"
+						android:layout_marginRight="@dimen/dimen_20dp" />
+
+					<ImageView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:id="@+id/imageView3"
+						android:src="@drawable/ic_list_arrow"
+						android:layout_gravity="center|right" />
+
+				</FrameLayout>
+
+			</LinearLayout>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="vertical"
+				android:layout_margin="@dimen/dimen_10dp">
+
+				<android.support.v7.widget.AppCompatButton
+					style="@style/AppTheme.AccentButton"
+					android:layout_width="match_parent"
+					android:layout_height="50dp"
+					android:text="@string/add_event"
+					android:id="@+id/btnSend"
+					android:layout_gravity="center_horizontal" />
+
+				<android.support.v7.widget.AppCompatButton
+					style="@style/AppTheme.AccentButton"
+					android:layout_width="match_parent"
+					android:layout_height="50dp"
+					android:text="@string/delete"
+					android:id="@+id/btnDelete"
+					android:layout_marginTop="@dimen/dimen_10dp"
+					android:layout_gravity="center_horizontal" />
+
+			</LinearLayout>
+
+		</LinearLayout>
+	</LinearLayout>
+
+
+</ScrollView>

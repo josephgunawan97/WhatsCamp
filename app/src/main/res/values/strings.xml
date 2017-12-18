@@ -1,0 +1,209 @@
+<resources>
+
+    <string name="latitude_longitude">%1$.8f, %2$.8f</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="app_name">WhatsCamp</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="app_settings">App Settings</string>
+    <string name="radius_nearby_msg">Enter radius in Km.</string>
+    <string name="pref_title_application_version">Application Version</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="radius_nearby">Radius Nearby</string>
+    <string name="max">Max</string>
+    <string name="action_settings">Settings</string>
+    <string name="settings">Settings</string>
+
+    <string name="header_main">MAIN</string>
+    <string name="header_categories">CATEGORIES</string>
+    <string name="header_extras">EXTRAS</string>
+    <string name="header_user">USER</string>
+
+    <string name="home">Home</string>
+
+    <string name="tap_back_again_to_exit">Please tap back again to exit the app.</string>
+    <string name="loading">Loadng...</string>
+    <string name="ok">OK</string>
+    <string name="no_results_found">No Results Found.</string>
+
+    <string name="go_to_settings">Settings</string>
+    <string name="location_error">Location Error</string>
+    <string name="cannot_determine_location">Cannot determine location.</string>
+
+    <string name="gps_not_on">GPS is currently turn off. Please enable it under your mobile Settings > Location.</string>
+    <string name="cancel">Cancel</string>
+    <string name="expires_in">Expires in</string>
+    <string name="km">Km.</string>
+    <string name="location_error_not_turned_on">No data to be shown because you decline the location request.</string>
+    <string name="permission_error">Permission Error</string>
+    <string name="permission_error_details_location">Permission location denied. You need to turn on location to get relevant results for the stores nearby.</string>
+
+    <string name="categories">Categories</string>
+    <string name="featured">Featured</string>
+    <string name="favorites">Favorites</string>
+    <string name="terms_condition">Terms and Conditions</string>
+    <string name="search">Search</string>
+    <string name="about_us">About Us</string>
+    <string name="profile">Profile</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+
+    <string name="failed_data">Failed to get data.</string>
+    <string name="going">going</string>
+
+    <string name="latest_news">Latest News</string>
+    <string name="news_detail">News Detail</string>
+    <string name="network_error">Network Error</string>
+    <string name="no_network_connection">No Network Connection.</string>
+    <string name="results">Results</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="about_us_detail">Lorem ipsum dolor sit amet, per wisi populo ne. Tale veritus no quo, sed elit nullam percipitur ne. No pri solum erant aeterno. Ad sit quando vocent salutandi, omnes possit fabulas qui ad, ne sit reque soluta. \n\nEum te hinc repudiare, dolore placerat id sed, scripta appareat ad usu mundi.</string>
+    <string name="terms_and_conditions_details">1.) Lorem Ipsum dolor\n\nLorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\n2.) Lorem Ipsum dolor\n\nLorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\n3.) Lorem Ipsum dolor\n\nLorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</string>
+    <string name="email_subject_company">WhatsCamp Inquiry</string>
+    <string name="email_body_company">Hi!.</string>
+    <string name="choose_email_client">Choose an Email client :</string>
+
+    <string name="loging_to_facebook">Login to Facebook</string>
+    <string name="login_to_twitter">Login to Twitter</string>
+    <string name="login_to_google_plus">Login to Google+</string>
+    <string name="full_name">Full Name</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="update">Update</string>
+    <string name="updating_profile">Updating Profile</string>
+    <string name="logout">Logout</string>
+    <string name="placeholder_fullname">Full Name</string>
+    <string name="click_to_add_edit">Add Photo</string>
+    <string name="login_error">Login Error</string>
+    <string name="problems_encountered_login">Problem encountered during login. Try again later.</string>
+    <string name="logging_in">Logging in</string>
+    <string name="empty_fields">Empty Fields</string>
+    <string name="empty_fields_register">All fields should not be empty.</string>
+    <string name="alert_logout_user_title">Logout User</string>
+    <string name="alert_logout_user_title_details">Are you sure you want to logout?</string>
+    <string name="search_uppercase">SEARCH</string>
+    <string name="placeholder_search">Search Any Keywords</string>
+    <string name="all_categories">All Categories</string>
+    <string name="categories_uppercase">CATEGORIES</string>
+    <string name="search_nearby">SEARCH NEARBY</string>
+    <string name="location_error_not_turned_on_search">You declined the location request. Search functionality is disabled.</string>
+    <string name="problems_encountered_while_syncing">Problem encountered while syncing. Try again later.</string>
+    <string name="done">Done</string>
+    <string name="my_events">My Events</string>
+    <string name="drag_drop_pins">Drag and drop the pins to adjust the coordinates</string>
+
+    <string name="upper_event_name">EVENT NAME</string>
+    <string name="upper_event_datetime">EVENT DATE/TIME</string>
+    <string name="upper_event_address">EVENT ADDRESS</string>
+    <string name="upper_event_email_address">EMAIL ADDRESS</string>
+    <string name="upper_event_contact_no">CONTACT NUMBER</string>
+    <string name="upper_event_ticket_url">TICKET URL</string>
+    <string name="upper_event_desc">EVENT DESCRIPTION</string>
+    <string name="upper_event_category">EVENT CATEGORY</string>
+    <string name="upper_event_location">EVENT LOCATION</string>
+
+    <string name="event_name">Event Name</string>
+    <string name="event_datetime">Event Date/Time</string>
+    <string name="event_address">Event Address</string>
+    <string name="event_email_address">Email Address</string>
+    <string name="event_contact_no">Contact Number</string>
+    <string name="event_ticket_url">Ticket URL</string>
+    <string name="event_desc">Event Description</string>
+    <string name="event_category">Select categories</string>
+    <string name="event_location">Event Location</string>
+
+    <string name="add_event">Add Event</string>
+    <string name="edit_event">Edit Event</string>
+    <string name="delete">Delete</string>
+    <string name="hide_map">Hide Map</string>
+    <string name="show_map">Show Map</string>
+    <string name="location_error_not_selected">You need to select a location in the map.</string>
+    <string name="drag_to_move_around">Hold &amp; Drag to move around.</string>
+    <string name="delete_image">Delete Image</string>
+    <string name="delete_image_details">Are you sure you want to delete image?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="event_added">Event Added!</string>
+    <string name="event_updated">Event Updated!</string>
+    <string name="problems_encountered">Problems encountered while syncing.</string>
+    <string name="syncing_data_to_server">Syncing data to server.</string>
+
+    <string name="deleting_event">Deleting Event</string>
+    <string name="add">Add</string>
+
+    <string name="error_title_event_datetime">Date/Time Error</string>
+    <string name="error_title_event_datetime_details">Event Date/Time must be later than current date/time.</string>
+
+    <string name="error_title_event_name">Event Name Empty</string>
+    <string name="error_title_event_name_details">Event name is empty.</string>
+    <string name="error_title_event_address">Address Empty</string>
+    <string name="error_title_event_address_details">Address is empty.</string>
+    <string name="error_title_event_email">Email Empty</string>
+    <string name="error_title_event_email_details">Email is empty.</string>
+    <string name="error_title_event_contact_no">Contact No Empty</string>
+    <string name="error_title_event_contact_no_details">Contact Number is empty.</string>
+    <string name="show_more">Show More</string>
+    <string name="show_less">Show Less</string>
+    <string name="find_tickets">Find Tickets</string>
+
+    <string name="posted_by">Posted by</string>
+    <string name="admin">Admin</string>
+
+    <string name="action_error">Action Error</string>
+    <string name="cannot_proceed">Cannot proceed. Lat/Lon are empty.</string>
+    <string name="at">at</string>
+    <string name="join">Join</string>
+    <string name="joined">Joined</string>
+
+    <string name="details_no">No</string>
+    <string name="details_users">users</string>
+    <string name="details_currently">currently</string>
+    <string name="details_going">going</string>
+
+    <string name="details_is_going">is going</string>
+    <string name="details_are_going">are going</string>
+    <string name="details_and">and</string>
+    <string name="details_others">others</string>
+    <string name="posts">Posts</string>
+    <string name="post">Post</string>
+    <string name="placeholder_comments">Comments</string>
+    <string name="chars_left">Char(s) left</string>
+    <string name="empty_error">Text Empty Error</string>
+    <string name="empty_error_details">Provide text for review.</string>
+    <string name="new_comment">Add New Comment</string>
+    <string name="load_more">Load More</string>
+    <string name="select_categories">Select Categories</string>
+    <string name="edit">Edit</string>
+    <string name="free">Free</string>
+    <string name="choose_browser">Choose browser:</string>
+    <string name="view_user_posts">View User Posts</string>
+
+    <string name="grant_permission_call">You need to grant call permission in order to use this service.</string>
+
+    <string name="need_login_event_details">You need to logged in order to join an event.</string>
+    <string name="download_app">Hey! I found this event. Download our app.</string>
+    <string name="twitter_app_error">Twitter App Error</string>
+    <string name="twitter_app_error_details">Twitter App not found. Please install it from the Google Play.</string>
+
+    <string name="email_subject">Event Finder Inquiry</string>
+    <string name="email_body">Hi! Good day.</string>
+
+    <string name="skip_now">Skip Now</string>
+    <string name="save">Save</string>
+
+    <string name="loading_image">Loading Image...</string>
+
+    <string name="wt_title_1">Map</string>
+    <string name="wt_title_2">Multiple Categories</string>
+    <string name="wt_title_3">Join. Attend. Friends.</string>
+    <string name="wt_title_4">Filter Radius</string>
+
+    <string name="facebook_app_id">982066895264670</string>
+    <string name="fb_login_protocol_scheme">fb982066895264670</string>
+
+    <string name="title_activity_welcome_screen">WelcomeScreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+</resources>
